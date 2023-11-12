@@ -8,8 +8,8 @@
 	<targetConfigs>
 		<targetConfig targets="lightning__AppPage">
 			<property name="textBox" type="String" />
-            <property name="happy" type="Boolean" />
-            <property name="textColor" type="String" />
+            		<property name="happy" type="Boolean" />
+            		<property name="textColor" type="String" />
 		</targetConfig>
 	</targetConfigs>
 </LightningComponentBundle>
