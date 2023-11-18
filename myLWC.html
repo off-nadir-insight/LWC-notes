@@ -1,13 +1,10 @@
 <template>
     <lightning-card title="MyLWC" icon-name="action:manage_perm_sets">
         <p class="slds-text-align_center slds-var-m-vertical_medium">
-            <template lwc:if={happy}> 
-                <lightning-formatted-text class="myCssTarget" value={textBox} style="font-weight:bold"></lightning-formatted-text>
-            </template>
-            <template lwc:else> 
-                <lightning-formatted-text class="myCssTarget" value={textBox}></lightning-formatted-text>
-            </template>
-            
+            <lightning-formatted-text class="myCssTarget" value={textBox} style={myStyle}></lightning-formatted-text>
+            <br>
+            <lightning-formatted-text class="myCssTarget" value={combinedText} style={combinedStyle}></lightning-formatted-text>
+            <br>
         </p>
         </lightning-card>
 </template>
