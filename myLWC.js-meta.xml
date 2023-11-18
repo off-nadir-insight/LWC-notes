@@ -7,9 +7,13 @@
 	</targets>
 	<targetConfigs>
 		<targetConfig targets="lightning__AppPage">
-			<property name="textBox" type="String" />
-            		<property name="happy" type="Boolean" />
-            		<property name="textColor" type="String" />
+		    <property name="textBox" type="String" />
+	            <property name="boldText" type="Boolean" />
+	            <property name="borderWidth" type="Integer" />
+	            <property name="textColor" type="String" />
+	            <property name="myStyle" type="String" />
+	            <property name="text1" type="String" />
+	            <property name="text2" type="String" />
 		</targetConfig>
 	</targetConfigs>
 </LightningComponentBundle>
